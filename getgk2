@@ -1,2 +1,3 @@
 #!/bin/bash -f
+#example: getgk2 rsh_028.log to show the kinetic energy and growth rate in the m3dk log file (named like rsh_028.log or *.m3dout)
 awk '$1=="g"{print tim,$2,$3};$1=="ncy,tim,dt="{tim=$3};' $1

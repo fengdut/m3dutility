@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#Run this script in the m3dk working directory to get all the kinetic energy and growth rate data in log files,
+#An text file named gdatatime_all will be generated.
 [ "$(ls -tr *.*.log 2>/dev/null)" ] && ls -tr *.*.log >logfilename || ls -tr *.m3dout >logfilename
 
 
