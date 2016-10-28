@@ -1,0 +1,6 @@
+#Feng Wang
+This are python scripts for M3D-K/GKM code data plot, diagnoses, and update variables in wxy files 
+It need h5py package to read hdf5 file.
+
+
+
