@@ -1,0 +1,4 @@
+module load intel.mpi.2017_intel
+module load hdf5_parallel-1.8.20 
+$CC -DUSE_MPI -g getfw_mpi_d.c  readhdf5data_new.c   $CFLAGS $LDFLAGS $LIBS  -lz -o getfw
+
